@@ -1,0 +1,15 @@
+<li
+class="list-group-item d-flex justify-content-between align-items-center border-start-0 border-top-0 border-end-0 border-bottom rounded-0 mb-2">
+<!-- <div div class="d-flex align-items-center"> -->
+
+{{div}}
+  <input class="form-check-input me-2" type="checkbox" value="" aria-label="..."  {{check12}} onchange="checkcompleted(event.target)" ' {{id}} ' />
+  {{todoName}}
+
+  {{div1}}
+<!-- </div> -->
+
+<a href="?idDelete={{idDelete}}" data-mdb-toggle="tooltip" title="Remove item">
+  <i class="fas fa-times text-primary"></i>
+</a>
+</li>
